@@ -7,9 +7,9 @@ i=1
 while [ "$i" -le "$num" ]
 do
 	if [ $((i%2)) -eq 0 ]; then
-		echo "$i is odd"
-	else
 		echo "$i is even"
+	else
+		echo "$i is odd"
 	fi
 	i=$((i+1))
 done
